@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:lopez/gridviewarticulos.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(CeresoApp());
 }
 
-class MyApp extends StatelessWidget {
+class CeresoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -14,6 +14,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.brown,
         ), //tema color global
-        home: const MyHomePage());
+        home: const PaginaInicial());
   }
 } // widget sin estado
